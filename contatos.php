@@ -14,16 +14,27 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Ver se os campos estão preenchidos
-    if(empty($erro)) {
-        $email = $_POST['email'];
-        $assunto = $_POST['assunto'];
-        $msg = $_POST['msg'];
+    $email = $_POST['email'];
+    $assunto = $_POST['assunto'];
+    $msg = $_POST['msg'];
     
+    if(empty($erro)) {
     // Ver se o email é válido
         if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $erro = 'Endereço de email errado.';
         }
     }
+
+    // Envio de email
+    if(empty($erro)) {
+        //$res = mail($email, $assunto, $msg);
+        //if($res) {
+        //    echo 'Sucess';
+        //} else {
+        //    echo 'Erro!';
+        //}
+        
+    } 
 }
 ?>
 
