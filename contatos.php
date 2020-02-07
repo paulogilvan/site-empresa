@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }
 
-    // Envio de email
+    // Envio de email gmail
     if(empty($erro)) {
         
         include('enviar_email.php');
