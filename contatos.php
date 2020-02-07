@@ -27,13 +27,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Envio de email
     if(empty($erro)) {
-        //$res = mail($email, $assunto, $msg);
-        //if($res) {
-        //    echo 'Sucess';
-        //} else {
-        //    echo 'Erro!';
-        //}
         
+        include('enviar_email.php');
     } 
 }
 ?>
