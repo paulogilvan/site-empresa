@@ -41,6 +41,11 @@
     color: rgb(0, 0, 0);
 }
 
+/*FORMULARIO E NEWSLETTER*/
+.separador {
+    margin-top: 50px;
+}
+
 /* RODAPÉ / FOOTER */
 .fundo-footer {
     background-color: rgb(170, 121, 31);
