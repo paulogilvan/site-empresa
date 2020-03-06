@@ -10,6 +10,7 @@
            <a href="?p=empresa">Empresa</a>
            <a href="?p=servicos">Serviços</a>
            <a href="?p=contatos">Contatos</a>
+           <a href="?p=area_reservada">Área reservada</a>
         </div>
     </div>
 </div>
